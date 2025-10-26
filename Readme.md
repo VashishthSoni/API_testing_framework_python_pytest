@@ -22,8 +22,8 @@ It demonstrates testing REST APIs with GET, POST, PUT, PATCH methods, including 
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd api-testing-project
+git clone https://github.com/VashishthSoni/API_testing_framework_python_pytest.git
+cd API_testing_fraework_python_pytest
 ```
 
 2. Create and activate a virtual environment:
@@ -58,8 +58,6 @@ pytest -v --log-cli-level=INFO
 ## Customization
 - Update config.py for different environments (dev/stage/prod)
 - Replace DEMO_VALID_TOKEN in conftest.py with a real API token
-- Add more test modules for additional endpoints
-- Extend logging to write into a file if needed
 
 ## Tech Stack
 - Python 3.x
@@ -68,7 +66,5 @@ pytest -v --log-cli-level=INFO
 - Built-in Python logging
 
 ## Notes
-- Ensure tests/ and helpers/ folders have __init__.py for proper imports
 - Always run tests from project root
-
 ---
